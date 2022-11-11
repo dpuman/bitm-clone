@@ -493,3 +493,82 @@ hr {
     z-index: 11;
     animation: action 1s infinite alternate;
 }
+
+footer a,
+li {
+    color: black !important;
+}
+
+/* Course Details Banner */
+
+
+.bitm-banner {
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/courseDetails/banner.jpg);
+}
+
+.course-avarage-ratting {
+    background: rgba(30, 49, 51, 0.9);
+    padding: 15px 0 0;
+}
+
+.course-details {
+    font-size: 33px;
+    color: white !important;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+}
+
+.couser-info {
+    font-size: 18px;
+    list-style: 24px;
+}
+
+.other-course {
+    background: rgba(49, 176, 213, 0.2);
+}
+
+.course-text-box {
+    background-color: rgba(0, 145, 189, 0.3);
+}
+
+.other-course-text {
+    font-size: 33px;
+    color: white;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+}
+
+.other-course-info {
+    list-style: none;
+    color: white;
+}
+
+.banner-btn-enroll {
+    background-color: #a6ce3a;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.banner-btn-enroll:hover {
+    background-color: #337ab7;
+    color: white;
+}
+
+.banner-btn-wishlist {
+    background-color: #199ebf;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.banner-btn-wishlist:hover {
+    background-color: #337ab7;
+    color: white;
+}
